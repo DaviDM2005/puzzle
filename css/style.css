@@ -1,0 +1,29 @@
+
+.first-p{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	transform: translatey(15%);
+	color: transparent;
+}
+
+{
+	display: inline-block;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: black;
+	font-size: 40px;
+}
+
+@media screen and (max-width: 700px){
+	.first-p{
+		display: block;
+		text-align: center;
+		font-size: 15px;
+	}
+}
